@@ -1,0 +1,119 @@
+/* nav bar common styles */
+.nav-bar{
+    height: 100px;
+    background-color: #11122b;
+    /* color: #cbcbcb; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 80px;
+    
+    /* color: beige; */
+    
+}
+
+
+/* left nav */
+.left-nav{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+
+.left-nav > .address-and-phone > .address{
+    color: #cbcbcb;
+}
+.left-nav > .address-and-phone > .number{
+    color: #858585;
+    font-size: large;
+}
+/* nav bar center */
+/* .logo */
+.nav-bar > .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-bar > .links > .logo{
+    display: flex;
+    justify-content: center;
+}
+/* link */
+.nav-bar > .links{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 45px;
+    width: 700px;
+
+}
+.link >.center-nav a{
+    color: rgb(203, 216, 255);
+    
+    
+}
+.links > .center-nav > .nav-link{
+    width: 120px;
+    text-align: center;
+}
+.links > .center-nav > .nav-link a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.links > .center-nav > .nav-link a:hover{
+    color: #cea123;
+    letter-spacing: 2px;
+}
+
+.center-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+    /* .right-nav */
+ 
+.right-nav > .opening-time{
+    text-align: right;
+   width: 200px;
+
+}
+.right-nav > .opening-time a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #858585;
+    text-decoration: none;
+    transition: 1s;
+}
+.right-nav > .opening-time a:hover{
+    color: aqua;
+    letter-spacing: 0.2px;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .center-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .center-nav > .nav-link{
+    width: 200px;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .center-nav > .nav-link a{
+    text-align: center;
+    text-decoration: none;
+    color: #cbcbcb; 
+    transition: 1s;
+    
+}
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .center-nav > .nav-link a:hover{
+    letter-spacing: 2px;
+    color: #cea123;
+}
